@@ -21,4 +21,15 @@ ZVox.AddonAPI.AddAddonHook(ADDON, "DeclareVoxels", function()
 		["sound"] = ZVOX_MAT_METAL,
 		["voxelmodel"] = "zvox:cube_dir",
 	})
+
+	ZVox.AddonAPI.NewVoxel({
+		["name"] = "scary_voxel",
+		["visible"] = true,
+		["solid"] = true,
+		["opaque"] = false,
+		["tex"] = "zvox:voidinium_wool",
+		["voxelgroup"] = ZVOX_VOXELGROUP_SOLID,
+		["sound"] = ZVOX_MAT_CLOTH,
+		["voxelmodel"] = "myfirstaddon:evil_model_two_the_return_of_evil",
+	})
 end)
