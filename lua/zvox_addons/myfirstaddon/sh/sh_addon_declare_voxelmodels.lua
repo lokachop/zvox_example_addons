@@ -1,0 +1,25 @@
+local ADDON = ZVox.AddonAPI.GetCurrentAddon()
+
+ZVox.AddonAPI.AddAddonHook(ADDON, "DeclareVoxelModels", function()
+	ZVox.AddonAPI.NewVoxelModel("legally_distinct_cube_all",[[
+	{
+		"credit": "Made with Blockbench",
+		"textures": {
+		},
+		"elements": [
+			{
+				"from": [0, 0, 0],
+				"to": [16, 16, 16],
+				"faces": {
+					"north": {"uv": [0, 0, 16, 16], "texture": "#all"},
+					"east": {"uv": [0, 0, 16, 16], "texture": "#all"},
+					"south": {"uv": [0, 0, 16, 16], "texture": "#all"},
+					"west": {"uv": [0, 0, 16, 16], "texture": "#all"},
+					"up": {"uv": [0, 0, 16, 16], "texture": "#all"},
+					"down": {"uv": [0, 0, 16, 16], "texture": "#all"}
+				}
+			}
+		]
+	}
+	]])
+end)
