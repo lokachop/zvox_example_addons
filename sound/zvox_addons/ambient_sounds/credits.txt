@@ -1,0 +1,19 @@
+https://github.com/tgstation/tgstation/tree/master/sound/ambience
+https://github.com/tgstation/tgstation/blob/master/sound/attributions.txt
+
+https://github.com/yogstation13/Yogstation/tree/master/sound/ambience
+https://github.com/yogstation13/Yogstation/blob/master/sound/attributions.txt
+
+(tg)
+ambi1.ogg -> ambiatmos.ogg
+ambi2.ogg -> ambidanger2.ogg
+ambi3.ogg -> ambimaint8.ogg
+ambi4.ogg -> ambimaint12.ogg
+ambi5.ogg -> ambimystery.ogg
+ambi6.ogg -> ambiodd.ogg
+ambi7.ogg -> ambiruin2.ogg
+ambi8.ogg -> ambiruin5.ogg
+ambi9.ogg -> ambiruin7.ogg
+
+(yog)
+ambi10.ogg -> cavesound3.ogg

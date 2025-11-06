@@ -10,7 +10,7 @@ ZVox.AddonAPI.AddAddonHook(ADDON, "DeclareVoxels", function()
 		["solid"] = true,
 		["tex"] = ZVox.AddonAPI.NamespaceConvert("my_animated_texture"),
 		["voxelgroup"] = ZVOX_VOXELGROUP_SOLID,
-		["sound"] = ZVOX_MAT_METAL,
+		["sound"] = ZVOX_MAT_GLASS,
 		["voxelmodel"] = "zvox:cube_dir",
 		["emmissive"] = 15,
 	})

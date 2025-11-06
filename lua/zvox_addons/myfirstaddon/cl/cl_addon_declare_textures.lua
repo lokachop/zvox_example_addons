@@ -21,20 +21,20 @@ ZVox.AddonAPI.AddAddonHook(ADDON, "DeclareTextures", function()
 		ZVox.TextureOpPixelFunc(name, function(x, y)
 			--local xc = (x + (delta * 16)) % 16
 			--local yc = (y + (delta * 32)) % 16
+			local xc, yc
 
 			local delta16 = delta * 16
 
-			local xc = x - delta16
-			local yc = y
-
+			xc = x - delta16
+			yc = y
 			local val1 = (bit.bxor(math.floor(xc), math.floor(yc)) * 16) % 256
 
-			local xc = x + delta16
-			local yc = y
+			xc = x + delta16
+			yc = y
 			local val2 = (bit.bxor(math.floor(xc), math.floor(yc)) * 16) % 256
 
-			local xc = x
-			local yc = y - delta16
+			xc = x - delta16
+			yc = y - delta16
 			local val3 = (bit.bxor(math.floor(xc), math.floor(yc)) * 16) % 256
 
 

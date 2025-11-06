@@ -4,6 +4,7 @@ if not ZVox then
 end
 local ADDON = ZVox.AddonAPI.NewAddon({
 	["name"] = "myfirstaddon", -- for namespace
+	["version"] = "1.0.0", -- semver or whatever you want, just don't go back, ideally increase this each ws upload of your addon
 
 	["author"] = "Lokachop",
 	["license"] = "MIT",
