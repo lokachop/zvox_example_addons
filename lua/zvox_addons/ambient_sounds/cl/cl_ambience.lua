@@ -13,10 +13,6 @@ local soundPaths = {
 	"zvox_addons/ambient_sounds/ambi10.ogg",
 }
 
-
-ZVox.AddonAPI.PrintInfo("Hello from cl_ambience, TODO: finish ts")
-
-
 local function playRandomSoundAtPos(pos)
 	local soundGet = soundPaths[math.random(1, #soundPaths)]
 
@@ -62,7 +58,7 @@ end
 
 
 
-local itrCheck = 16
+local itrCheck = 32
 local checkRad = 4
 local function getDensityAroundPlayer(univ)
 	local pX, pY, pZ = ZVox.AddonAPI.GetPlayerPosUnpacked()
@@ -76,7 +72,7 @@ local function getDensityAroundPlayer(univ)
 	for i = 1, itrCheck do
 		xC = pX + math.random(-checkRad, checkRad)
 		yC = pY + math.random(-checkRad, checkRad)
-		zC = pZ + math.random(0, checkRad * 2)
+		zC = pZ + math.random(2, checkRad * 2)
 
 		local cont = ZVox.AddonAPI.GetBlockAtPos(univ, xC, yC, zC)
 

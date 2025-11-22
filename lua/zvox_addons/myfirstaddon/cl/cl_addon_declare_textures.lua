@@ -13,7 +13,6 @@ ZVox.AddonAPI.AddAddonHook(ADDON, "DeclareTextures", function()
 		return 0, x * 16, y * 16
 	end)
 
-
 	ZVox.NewTextureAnimated("my_animated_texture", {
 		["frames"] = 16,
 		["speed"] = 0.1,
